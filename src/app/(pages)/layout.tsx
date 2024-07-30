@@ -41,7 +41,7 @@ const ProtectedLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
           </div>
           <Header />
-          <main className="px-2 py-4">{children}</main>
+          <main className="px-2 py-4 bg-black/5">{children}</main>
         </>
       )}
     </AuthProvider>
